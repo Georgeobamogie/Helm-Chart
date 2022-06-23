@@ -4,8 +4,6 @@
 
 apiversion: apps/v1
 
-apiversion2:
-
 replicaCount: 1
 
 image:

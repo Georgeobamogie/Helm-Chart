@@ -1,4 +1,4 @@
-apiVersion: {{ .Values.apiversion2 }}
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ printf "%s-%s" .Release.Name .Chart.Name }}
